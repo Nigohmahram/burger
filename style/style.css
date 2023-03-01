@@ -1,4 +1,4 @@
-/* FONTS  */
+/* /* FONTS
 /* ROOT  */
 /* GLOBALL */
 
@@ -81,6 +81,53 @@ select:-webkit-autofill:focus {
 .main-content {
      flex-grow: 1;
 }
+
+.header{
+     background-image: url(../img/backgraund.jpg);
+     background-size: cover;
+     background-position: center center;
+     height: 400px;
+}
+.ul__menu{
+     padding: 0;
+     margin-right: 30px;
+}
+ul li{
+
+     text-align: center;
+     background-color: rgb(205, 177, 231);
+     border: 1px solid rgb(188, 142, 231);
+     padding: 10px;
+     border-radius: 5px;
+     list-style: none;
+
+}
+ul li a{
+     text-decoration: none;
+}
+.row .col-lg-3 {
+     padding: 0;
+     margin: 0;
+}
+.box{
+     border: 3px solid black;
+     color: white;
+     background-color: blue;
+     padding: 10px 10px 90px 5px
+}
+.row .footer{
+     background: blue;
+     margin-top: 20px;
+     color: white;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+}
+.footer p {
+     margin:  0;
+}
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
